@@ -1,55 +1,81 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #FEF9E1;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.main-heading{
-    font-size: 60px;
-    text-align: center;
-    background-color: #E5D0AC;
-    color: #6D2323;
-    padding: 30px;
+body {
+    font-family: Helvetica, Arial, serif;
+    background-color: #606c38;
 }
-.main-header{
-    padding: 10px;
-    border: 2px solid #6D2323;
-}
-
-.recipe-container{
-    margin: 30px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.recipe-card{
-    width: 200px;
-    background-color: #E5D0AC;
-    padding: 20px;
-    text-align: center;
+img {
+    width: 300px;
+    border: 3px solid #fefae0;
     border-radius: 10%;
-    border: 5px solid #A31D1D;
 }
 
-.img-card {
-    width: 200px;
-    border-radius: 8%;
-    margin: 5px;
+.padding-20{
+    padding: 20px;
 }
-
-a{
-    text-decoration: none;
-    background-color: #6D2323;
+.header-container{
+    background-color: #dda15e;
+    text-align: center;
+    color: #283618;
+}
+.header-heading{
+    font-size: 50px;
+}
+.main-heading{
+    color: #fefae0;
+    padding: 10px;
+    text-align: center;
+}
+.recipe-container{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.recipe-card{
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    background-color: #dda15e;
+    text-align: center;
+    max-height: 500px;
+}
+.recipe-heading{
+    font-size: 30px;
     padding: 5px;
-    border-radius: 5%;
-    color: #FEF9E1;
-    font-size: 20px;
+    color: #fefae0;
+}
+.recipe-p{
+    min-height: 130px;
+    text-align: center;
+    color: #283618;
+}
+.recipe-button {
+    text-decoration: none;
+    background-color: #bc6c25;
+    color: #fefae0;
+    padding: 10px;
+    border: 3px solid #fefae0;
+}
+
+.header-nav{
+    background-color: #bc6c25;
+    padding: 20px;
+    margin-top: 10px;
 }
 
 .main-section{
     padding: 10px;
-    font-size: 20px;
+    margin: 20px;
 }
-.section-img{
-    border-radius: 10%;
+.section-heading{
+    color: #fefae0;
+    padding: 10px;
+}
+.section-desc{
+    max-width: 500px;
 }
